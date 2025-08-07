@@ -37,6 +37,11 @@ public class ProductController {
         return "Congratulations testing is done !";
     }
 
+    @GetMapping("/addtest")
+    public String addtest(){
+        return "Congratulations testing , addtest is done !";
+    }
+
 
 
     @PostMapping("/add")
