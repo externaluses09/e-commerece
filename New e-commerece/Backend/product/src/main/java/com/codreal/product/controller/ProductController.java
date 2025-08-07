@@ -39,16 +39,6 @@ public class ProductController {
 
 
 
-    @GetMapping("/test1")
-    public String test1(){
-        return "Congratulations testing of test1 is done !";
-    }
-    @GetMapping("/newtest3")
-    public String newtest3(){
-        return "Congratulations testing of newtest3 is done !";
-    }
-
-
     @PostMapping("/add")
     public ResponseEntity<Product> add1(@RequestBody Product product)  throws IOException {
         Product user=productService.add1(product);
@@ -64,6 +54,7 @@ public class ProductController {
         }
     }
 }
+
 
 
 
