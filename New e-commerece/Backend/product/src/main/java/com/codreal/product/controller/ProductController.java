@@ -37,6 +37,11 @@ public class ProductController {
         return "Congratulations testing is done !";
     }
 
+    @GetMapping("/test2")
+    public String test2(){
+        return "Congratulations testing of test2 is done !";
+    }
+
 
     @PostMapping("/add")
     public ResponseEntity<Product> add1(@RequestBody Product product)  throws IOException {
