@@ -43,7 +43,7 @@ public class ProductController {
     }
 
     @GetMapping("/git")
-    public String addtest(){
+    public String git(){
         return "Congratulations git testing done !";
     }
 
