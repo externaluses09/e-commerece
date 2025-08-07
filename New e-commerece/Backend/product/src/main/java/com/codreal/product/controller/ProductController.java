@@ -36,6 +36,11 @@ public class ProductController {
     public String test(){
         return "Congratulations testing is done !";
     }
+    
+    @GetMapping("/test1")
+    public String test1(){
+        return "Congratulations testing of test1 is done ! also you are going to do great , fantastic and super !";
+    }
 
     @GetMapping("/test2")
     public String test2(){
@@ -58,3 +63,5 @@ public class ProductController {
         }
     }
 }
+
+
