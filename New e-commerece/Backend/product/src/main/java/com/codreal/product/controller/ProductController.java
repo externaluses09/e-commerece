@@ -36,6 +36,11 @@ public class ProductController {
     public String test(){
         return "Congratulations testing is done !";
     }
+    
+    @GetMapping("/test1")
+    public String test1(){
+        return "Congratulations testing of test1 is done !";
+    }
 
 
     @PostMapping("/add")
@@ -53,3 +58,4 @@ public class ProductController {
         }
     }
 }
+
