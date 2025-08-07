@@ -39,9 +39,9 @@ public class ProductController {
 
 
 
-    @GetMapping("/test3")
-    public String test3(){
-        return "Congratulations testing of test3 is done !";
+    @GetMapping("/test1")
+    public String test1(){
+        return "Congratulations testing of test1 is done !";
     }
     @GetMapping("/newtest3")
     public String newtest3(){
