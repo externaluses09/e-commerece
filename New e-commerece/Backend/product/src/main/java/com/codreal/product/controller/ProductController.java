@@ -20,6 +20,7 @@ public class ProductController {
 
     @GetMapping("/check")
     public String check(){
+        //new test config
         return "Working...!";
     }
 
