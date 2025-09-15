@@ -34,6 +34,7 @@ public class ProductController {
 
     @GetMapping("/test")
     public String test(){
+        //new test
         return "Congratulations testing is done !";
     }
 
