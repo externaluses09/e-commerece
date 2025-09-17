@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @CrossOrigin(origins = "*")
 public class ProductController {
-
+    //config added
     @Autowired
     private ProductService productService;
 
@@ -64,6 +64,7 @@ public class ProductController {
         }
     }
 }
+
 
 
 
